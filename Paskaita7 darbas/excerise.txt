@@ -1,0 +1,15 @@
+Task:
+Build a simple todo list app with Node.js and React.
+The app should allow users to create, read, and delete todo items.
+Endpoints:
+/todos (GET): Get all todo items.
+/todos (POST): Create a new todo item.
+/todos/:id (DELETE): Delete a todo item by ID.
+Components:
+TodoList component: Displays a list of todo items.
+TodoItem component: Displays a single todo item.
+CreateTodo component: Allows users to create a new todo item.
+Additional challenges:
+Add the ability to filter and sort the todo list.
+Add the ability to add due dates and priorities to todo items.
+Add the ability to mark todo items as complete and incomplete.

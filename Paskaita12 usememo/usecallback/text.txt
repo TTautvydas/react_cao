@@ -1,0 +1,3 @@
+2 nauji hooksai reacte- 
+useMemo - funkcija irasanti i atminti reiksme, naudojamas optimizuoti didelias operacijas, skaiciavimus. Priima funkcija, taip pat reikia dependency array gale
+useCallback - issaugoja pati funkcijos sukurima
