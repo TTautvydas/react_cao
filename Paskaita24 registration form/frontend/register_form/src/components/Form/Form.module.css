@@ -1,0 +1,26 @@
+div > form > div > input {
+  line-height: 15px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: 0;
+}
+
+div > form > div > input:focus {
+  outline: none;
+}
+
+div > form > div > i {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  color: rgb(188, 188, 188);
+}
+
+div > form > div {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid lightgrey;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}

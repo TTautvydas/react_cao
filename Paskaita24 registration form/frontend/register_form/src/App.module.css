@@ -1,0 +1,19 @@
+.signUp {
+  background-color: orange;
+  border: 1px solid lightgrey;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 15px 30px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.signUp:hover {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}

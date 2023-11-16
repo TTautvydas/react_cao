@@ -1,0 +1,16 @@
+p:nth-child(2) {
+  text-align: left;
+  font-size: 10px;
+  margin: 0;
+}
+
+h6 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: orange;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}

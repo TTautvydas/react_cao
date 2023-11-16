@@ -1,0 +1,40 @@
+.imgStyle {
+  width: 20px;
+  background-color: white;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mainContainer > button {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.mainContainer > button:nth-child(2) {
+  background-color: rgba(120, 151, 193, 1);
+}
+
+.mainContainer > button:nth-child(2) > img {
+  border-radius: 50%;
+}
+
+.mainContainer > button > p {
+  font-size: 12px;
+  line-height: 20px;
+  padding-left: 5px;
+}
+
+.mainContainer > button:nth-child(2) > p {
+  color: whitesmoke;
+}
