@@ -1,4 +1,3 @@
-import React from "react";
 import { createPortal } from "react-dom";
 import SocialButton from "../SocialButton/SocialButton";
 import Form from "../Form/Form";
@@ -31,7 +30,6 @@ export default function RegistrationForm({
           <SocialButton />
           <p>Or</p>
           <Form />
-          <Button />
         </div>
         <button className={styles.closeButton} onClick={onClose}>
           X
