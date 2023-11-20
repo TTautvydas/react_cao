@@ -1,4 +1,3 @@
-import mongoose from "mongoose";
 import User from "./models/User.js";
 
 export async function createUser(req, res) {
@@ -10,10 +9,6 @@ export async function createUser(req, res) {
       email,
       password,
     });
-
-    if (!name || !email || !password) {
-      return alert("All fields must be filled!");
-    }
 
     await user.save();
     res.status(200).json(user);
